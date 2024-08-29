@@ -4,7 +4,7 @@ This project implements a use case for a Design Pattern, the Factory. To know mo
 
 ## What it is?
 
-A **Factory Design Pattern** can handle some structural issues with crossed inheritance. If you have a group of subclasses A that creates and executes operations in a group of subclasses B, Factory it's a good option to handle typing and instantiation issues.
+A **Factory Design Pattern** can handle some structural issues with crossed inheritance. If you have a group of subclasses A that creates and executes operations in a group of subclasses B, Factory it's a good option to handle typing and instantiation issues. If you have a creation method in base class and subclasses that extend it, you might be looking at the factory method.
 
 This is the schema of a Factory pattern:
 
@@ -19,7 +19,7 @@ Learn this schema and you'll forever know what is a Factory Design Pattern.
 
 ## Project
 
-Let's implement a Logistic system scratch. A package have to be delivered, and it's going to be delivered by a **Logistic** object. There's two types of possible Logistics: 
+Let's implement a Logistic system scratch. A package have to be delivered, and it's going to be delivered by a **Logistic** object. There's two types of possible Logistics:
 
 1. **SeaLogistic**;
 2. **EarthLogistic**.
